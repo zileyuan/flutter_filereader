@@ -21,6 +21,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 android {
     compileSdkVersion 28
+    namespace "com.webview.filereader"
 
     defaultConfig {
         minSdkVersion 16
